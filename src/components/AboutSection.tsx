@@ -74,7 +74,7 @@ const AboutSection: React.FC = () => {
           {/* Imagen */}
           <div className="relative">
             <img 
-              src="https://images.pexels.com/photos/159306/construction-site-build-construction-work-159306.jpeg?auto=compress&cs=tinysrgb&w=800"
+              src="/quienesomos.jpeg"
               alt="Profesionales trabajando en laboratorio y terreno"
               className="w-full h-96 object-cover rounded-2xl shadow-lg"
             />

@@ -10,7 +10,7 @@ const ServicesSection: React.FC = () => {
       title: 'Campañas de Mecánica de Suelos',
       subtitle: 'Informes de Caracterización Geotécnica',
       description: 'Caracterización geotécnica completa con sondajes geotécnicos (SPT, CPT) y ensayos de laboratorio/in-situ según normativa chilena NCh3206.',
-      image: 'https://images.pexels.com/photos/1166643/pexels-photo-1166643.jpeg?auto=compress&cs=tinysrgb&w=600',
+      image: '/mecanicasuelo.png',
       borderColor: 'border-t-red-600'
     },
     {
@@ -19,8 +19,8 @@ const ServicesSection: React.FC = () => {
       title: 'Prospección Geofísica',
       subtitle: 'Clasificación Sísmica DS61 y NCh2369:2025',
       description: 'MASW, HVSR (Nakamura) para periodo fundamental, y ReMi para determinación de Vs30 según normativas vigentes.',
-      image: 'https://images.pexels.com/photos/159275/road-construction-work-construction-site-159275.jpeg?auto=compress&cs=tinysrgb&w=600',
-      borderColor: 'border-t-gray-800'
+      image: '/mecanicadesuelo.jpeg',
+            borderColor: 'border-t-gray-800'
     },
     {
       id: 'analisis-estabilidad',
@@ -31,7 +31,7 @@ const ServicesSection: React.FC = () => {
       image: 'https://images.pexels.com/photos/1105766/pexels-photo-1105766.jpeg?auto=compress&cs=tinysrgb&w=600',
       borderColor: 'border-t-red-600'
     },
-    {
+   /*  {
       id: 'diseno-geotecnico',
       icon: Wrench,
       title: 'Diseño Geotécnico de Ingeniería',
@@ -39,14 +39,14 @@ const ServicesSection: React.FC = () => {
       description: 'Diseño de pilotes, micropilotes, muros de contención, fundaciones y mejoramiento de suelos con técnicas avanzadas.',
       image: 'https://images.pexels.com/photos/159299/construction-site-build-construction-work-159299.jpeg?auto=compress&cs=tinysrgb&w=600',
       borderColor: 'border-t-gray-800'
-    },
+    }, */
     {
       id: 'geosinteticos',
       icon: Shield,
       title: 'Revestimientos con Geosintéticos',
       subtitle: 'Control y protección integral',
       description: 'Soluciones para control de erosión, impermeabilización, drenaje, filtración y refuerzo mecánico de estratos.',
-      image: 'https://images.pexels.com/photos/162539/architecture-building-construction-work-162539.jpeg?auto=compress&cs=tinysrgb&w=600',
+      image: '/revestimiento.jpeg',
       borderColor: 'border-t-red-600'
     }
   ];
