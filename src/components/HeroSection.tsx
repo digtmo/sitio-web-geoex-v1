@@ -72,9 +72,9 @@ const HeroSection: React.FC = () => {
           <div className="relative">
             <div className="aspect-w-4 aspect-h-3 rounded-2xl overflow-hidden shadow-2xl">
               <img 
-                src="https://images.pexels.com/photos/162539/architecture-building-construction-work-162539.jpeg?auto=compress&cs=tinysrgb&w=800"
+                src="/imagenheader.jpeg"
                 alt="Panorámica de obra civil con equipo GeoEx en terreno"
-                className="w-full h-full object-cover"
+                className="w-full h-[400px] object-cover"
               />
             </div>
             
