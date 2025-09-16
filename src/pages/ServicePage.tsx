@@ -33,10 +33,35 @@ const ServicePage: React.FC = () => {
         'Soporte técnico post-entrega'
       ],
       images: [
-        'https://images.pexels.com/photos/1166643/pexels-photo-1166643.jpeg?auto=compress&cs=tinysrgb&w=800',
-        'https://images.pexels.com/photos/585419/pexels-photo-585419.jpeg?auto=compress&cs=tinysrgb&w=800',
-        'https://images.pexels.com/photos/159306/construction-site-build-construction-work-159306.jpeg?auto=compress&cs=tinysrgb&w=800',
-        'https://images.pexels.com/photos/162539/architecture-building-construction-work-162539.jpeg?auto=compress&cs=tinysrgb&w=800'
+        '/Sondajeraamarillaoperando.png',
+        '/calicata.jpeg',
+        '/ensayo-densidad.jpeg',
+        '/muestrasondaje.jpeg',
+        '/sondajest1.jpeg',
+        '/C-1 01.jpg',
+        '/C-1 02.jpg',
+        '/C-1 03.jpg',
+        '/C-3 01.jpg',
+        '/C-3 02.jpg',
+        '/C-3 cerca.jpg',
+        '/C-3.jpg',
+        '/C-4 A.jpg',
+        '/C-4 B.jpg',
+        '/C-4 C.jpg',
+        '/C-4.jpg',
+        '/C-5.jpg',
+        '/C-6 02.jpg',
+        '/c-6 03.jpg',
+        '/C-6.jpg',
+        '/C-10 0.jpg',
+        '/C-10.jpg',
+        '/C-11.jpg',
+        '/C-15.jpg',
+        '/General de C-6 abierta con material acumulado.jpg',
+        '/IMG-20241021-WA0062.jpg',
+        '/IMG-20241021-WA0064.jpg',
+        '/IMG-20241021-WA0073.jpg',
+        '/Retro + vista general c-6.jpg'
       ]
     },
     'prospeccion-geofisica': {
@@ -65,10 +90,10 @@ const ServicePage: React.FC = () => {
         'Mapas de isovelocidades'
       ],
       images: [
-        'https://images.pexels.com/photos/159275/road-construction-work-construction-site-159275.jpeg?auto=compress&cs=tinysrgb&w=800',
-        'https://images.pexels.com/photos/1105766/pexels-photo-1105766.jpeg?auto=compress&cs=tinysrgb&w=800',
-        'https://images.pexels.com/photos/159299/construction-site-build-construction-work-159299.jpeg?auto=compress&cs=tinysrgb&w=800',
-        'https://images.pexels.com/photos/162539/architecture-building-construction-work-162539.jpeg?auto=compress&cs=tinysrgb&w=800'
+        '/MASW2.jpeg',
+        '/MASW1.jpeg',
+        '/MASW3.jpeg',
+                'https://images.pexels.com/photos/162539/architecture-building-construction-work-162539.jpeg?auto=compress&cs=tinysrgb&w=800'
       ]
     },
     'analisis-estabilidad': {
@@ -272,14 +297,14 @@ const ServicePage: React.FC = () => {
                 <div className="flex items-center space-x-3">
                   <Calendar className="h-5 w-5 text-red-600" />
                   <div>
-                    <div className="font-semibold text-gray-900">10+ años</div>
+                    <div className="font-semibold text-gray-900">5+ años</div>
                     <div className="text-sm text-gray-600">de experiencia</div>
                   </div>
                 </div>
                 <div className="flex items-center space-x-3">
                   <Users className="h-5 w-5 text-red-600" />
                   <div>
-                    <div className="font-semibold text-gray-900">500+</div>
+                    <div className="font-semibold text-gray-900">10+</div>
                     <div className="text-sm text-gray-600">proyectos completados</div>
                   </div>
                 </div>

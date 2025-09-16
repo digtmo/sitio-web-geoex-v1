@@ -90,7 +90,7 @@ const ContactSection: React.FC = () => {
                   <Phone className="h-6 w-6 text-gray-800 mt-1 flex-shrink-0" />
                   <div>
                     <h4 className="font-medium text-gray-900">Teléfono</h4>
-                    <p className="text-gray-600">+56 9 __ __</p>
+                    <p className="text-gray-600">+56 9 3950 6114</p>
                     <p className="text-sm text-gray-500">Lun - Vie: 9:00 - 18:00</p>
                   </div>
                 </div>
@@ -99,7 +99,7 @@ const ContactSection: React.FC = () => {
                   <MapPin className="h-6 w-6 text-red-600 mt-1 flex-shrink-0" />
                   <div>
                     <h4 className="font-medium text-gray-900">Ubicación</h4>
-                    <p className="text-gray-600">Santiago, Chile</p>
+                    <p className="text-gray-600">Los Ángeles, Chile</p>
                     <p className="text-sm text-gray-500">Cobertura nacional</p>
                   </div>
                 </div>
@@ -120,12 +120,12 @@ const ContactSection: React.FC = () => {
               <h4 className="text-lg font-semibold text-gray-900 mb-2">¿Necesitas ayuda inmediata?</h4>
               <p className="text-gray-600 mb-4">Contáctanos directamente por WhatsApp para consultas urgentes.</p>
               <a 
-                href="https://wa.me/56900000000"
+                href="https://wa.me/+56975497530"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center space-x-2 bg-green-500 text-white px-6 py-3 rounded-lg hover:bg-green-600 transition-colors"
               >
-                <span>WhatsApp Business</span>
+                <span>WhatsApp</span>
               </a>
             </div>
           </div>

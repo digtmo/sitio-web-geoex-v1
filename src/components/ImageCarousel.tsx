@@ -32,11 +32,11 @@ const ImageCarousel: React.FC<ImageCarouselProps> = ({ images, alt }) => {
       {/* Main Carousel */}
       <div className="relative">
         {/* Main Image */}
-        <div className="relative h-96 rounded-xl overflow-hidden">
+        <div className="relative w-full h-96 md:h-[500px] lg:h-[600px] rounded-xl overflow-hidden bg-gray-100 flex items-center justify-center">
           <img
             src={images[currentIndex]}
             alt={`${alt} - Imagen ${currentIndex + 1}`}
-            className="w-full h-full object-cover cursor-pointer hover:scale-105 transition-transform duration-300"
+            className="w-full h-full object-contain cursor-pointer hover:scale-105 transition-transform duration-300"
             onClick={() => openModal(currentIndex)}
           />
           
@@ -76,22 +76,29 @@ const ImageCarousel: React.FC<ImageCarouselProps> = ({ images, alt }) => {
 
         {/* Thumbnail Strip */}
         {images.length > 1 && (
-          <div className="mt-4 grid grid-cols-4 gap-2">
-            {images.map((image, index) => (
+          <div className="mt-4 grid grid-cols-5 gap-2">
+            {images.slice(0, 5).map((image, index) => (
               <button
                 key={index}
                 onClick={() => setCurrentIndex(index)}
-                className={`relative h-20 rounded-lg overflow-hidden ${
+                className={`relative h-16 sm:h-20 md:h-24 rounded-lg overflow-hidden bg-gray-100 flex items-center justify-center ${
                   index === currentIndex ? 'ring-2 ring-blue-600' : 'opacity-70 hover:opacity-100'
                 } transition-all`}
               >
                 <img
                   src={image}
                   alt={`${alt} - Miniatura ${index + 1}`}
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-contain"
                 />
               </button>
             ))}
+            {images.length > 5 && (
+              <div className="relative h-16 sm:h-20 md:h-24 rounded-lg overflow-hidden bg-gray-200 flex items-center justify-center">
+                <span className="text-gray-600 text-xs font-medium">
+                  +{images.length - 5} más
+                </span>
+              </div>
+            )}
           </div>
         )}
       </div>

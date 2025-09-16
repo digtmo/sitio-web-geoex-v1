@@ -57,11 +57,11 @@ const Footer: React.FC = () => {
               </div>
               <div className="flex items-center space-x-2">
                 <Phone className="h-4 w-4" />
-                <span>+56 9 __ __</span>
+                <span>+56 9 3950 6114</span>
               </div>
               <div className="flex items-center space-x-2">
                 <MapPin className="h-4 w-4" />
-                <span>Santiago, Chile</span>
+                <span>Los Ángeles, Chile</span>
               </div>
             </div>
           </div>
@@ -69,7 +69,7 @@ const Footer: React.FC = () => {
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
           <p className="text-gray-400 text-sm">
-            © 2024 GeoEx. Todos los derechos reservados. | Ingeniería geotécnica de alto nivel técnico
+            © 2025 | <a href="https://digtmo.com" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">digtmo.com</a>
           </p>
         </div>
       </div>

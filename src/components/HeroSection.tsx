@@ -54,11 +54,11 @@ const HeroSection: React.FC = () => {
             {/* Stats */}
             <div className="grid grid-cols-3 gap-6 pt-8 border-t border-gray-200">
               <div>
-                <div className="text-2xl font-bold text-red-600">10+</div>
+                <div className="text-2xl font-bold text-red-600">5+</div>
                 <div className="text-sm text-gray-600">Años de experiencia</div>
               </div>
               <div>
-                <div className="text-2xl font-bold text-red-600">500+</div>
+                <div className="text-2xl font-bold text-red-600">10+</div>
                 <div className="text-sm text-gray-600">Proyectos realizados</div>
               </div>
               <div>
